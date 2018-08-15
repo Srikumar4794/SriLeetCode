@@ -14,10 +14,10 @@ public class ReverseLL
 		int len = lst.size();
 		for(int i = len-1 ;i>=0;i--)
 		{
-			l1.next = new ListNode(lst.get(i));
-            l1 = l1.next;
+		  	l1.next = new ListNode(lst.get(i));
+           	  	l1 = l1.next;
 		}
-        l1.next = null;
+        	l1.next = null;
 		return(temp.next);        
     }
 	public static void main(String args[])
