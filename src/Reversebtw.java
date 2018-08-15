@@ -36,7 +36,6 @@ public class Reversebtw
 		ListNode l1 = new ListNode(5);
 		l1.next = new ListNode(4);
 		l1.next.next = new ListNode(6);
-		l1.next.next.next = new ListNode(12);
 		Reversebtw obj = new Reversebtw();
 		ListNode r_list = obj.reverseBetween(l1,1,3);
 		while(r_list != null)
